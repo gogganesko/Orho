@@ -10,7 +10,7 @@
 * Password:String
 * Position:Int
 * Specialization:String
-* WorkingHours:List<WorkingHour>
+* WorkingHours:List<[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")>
 
 ## Описание атрибутов
 * ContactPhoneNumber:Int - контактный номер телефона
@@ -20,4 +20,4 @@
 * Password:String - пароль для авторизации в системе
 * Position:Int - позиция в таблице
 * Specialization:String - специализация
-* WorkingHours:List<WorkingHour> - список рабочего расписания
+* WorkingHours:List<[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")> - список рабочего расписания

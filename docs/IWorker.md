@@ -28,5 +28,5 @@
   
 	* page: int — отвечает, с какой страницы начинать поиск элементов.
   
-* +GetVisists(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List<Visit> — функция, возвращающая общее количество приёмов, удовлетворяющих заданным параметрам.
-* +GetWorkers(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <Worker> - функция, возвращающая общее количество врачей, удовлетворяющих заданным параметрам.
+* +GetVisists(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List<[Visit](https://github.com/gogganesko/Orho/blob/master/docs/Visit.md "объект класса Visit")> — функция, возвращающая общее количество приёмов, удовлетворяющих заданным параметрам.
+* +GetWorkers(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Worker](https://github.com/gogganesko/Orho/blob/master/docs/Worker.md "объект класса Worker")> - функция, возвращающая общее количество врачей, удовлетворяющих заданным параметрам.
