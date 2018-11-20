@@ -6,7 +6,7 @@
 который необходимо добавить в БД;
 * +AddCabinetVisit(VisitID: Int, CabinetID: Int): Int – функция добавляет кабинету приём в БД. Параметр CabinetID и VisitID – ID по которому будет осуществлен поиск в базе.
 * +DelCabinetVisit(VisitID: Int, CabinetID: Int): Int - удаление кабинета у приёма.
-* +Save (TreatmentPlan:[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")): Bool — функция, редактирующая данные о плане лечения. Параметр «[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan"))» — 
+* +Save (Cabinet:[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")): Bool — функция, редактирующая данные о кабинете. Параметр «[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")» — 
 кабинет, который необходимо редактировать в БД;
 * +FindByID(ID: Int): Int  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID): Bool – функция удаляет кабинет.
