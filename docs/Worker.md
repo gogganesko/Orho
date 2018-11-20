@@ -12,7 +12,7 @@
 * Specialization:String
 * WorkingHours:List<WorkingHour>
 
-##Описание атрибутов
+## Описание атрибутов
 * ContactPhoneNumber:Int - контактный номер телефона
 * ID:Int - идентификатор в БД
 * Login:String - логин для авторизации в системе
