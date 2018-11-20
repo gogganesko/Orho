@@ -8,7 +8,7 @@
 * +DelCabinetVisit(VisitID: Int, CabinetID: Int): Int - удаление кабинета у приёма.
 * +Save (Cabinet:[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")): Bool — функция, редактирующая данные о кабинете. Параметр «[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")» — 
 кабинет, который необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")  — функция, осуществляющая поиск кабинета в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID): Bool – функция удаляет кабинет.
 * +GetCabinets(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[Cabinet](https://github.com/gogganesko/Orho/blob/master/docs/Cabinet.md "объект класса Cabinet")> — функция, возвращающая список кабинетов. 
 Параметры: 

@@ -6,7 +6,7 @@
 который необходимо добавить в БД;
 * +Save (Visit: [Visit](https://github.com/gogganesko/Orho/blob/master/docs/Visit.md "объект класса Visit")): Bool — функция, редактирующая данные о приёме. Параметр «[Visit](https://github.com/gogganesko/Orho/blob/master/docs/Visit.md "объект класса Visit")» — 
 приём, который необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск приёма в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Visit](https://github.com/gogganesko/Orho/blob/master/docs/Visit.md "объект класса Visit")  — функция, осуществляющая поиск приёма в базе данных по ID и возвращающая найденный, если такой есть. 
 * +AddProcedure(VisitID: Int, ProcedureID: Int): Int – функция добавляет приёму процедуру в БД. Параметр ProcedureID и VisitID – ID по которому будет осуществлен поиск в базе.
 * +Delete(ID): Bool – функция удаляет приём.
 * +DelVisitProcedure(VisitID: Int, ProcedureID: Int): Bool – удаление у приёма процедуры.

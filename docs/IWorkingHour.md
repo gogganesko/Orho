@@ -6,7 +6,7 @@
 который необходимо добавить в БД;
 * +Save (WorkingHour:[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")): Int — функция, добавляющая расписание в базу данных. Параметр «[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")): Bool — функция, редактирующая данные о записи расписания. Параметр «WorkingHour:[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")): Int — функция, добавляющая расписание в базу данных. Параметр «[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")» — 
 запись расписания, которую необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск записи расписания в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")  — функция, осуществляющая поиск записи расписания в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID): Bool – функция удаляет запись расписания.
 * +GetAllWorkingHours(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <WorkingHour:[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")): Int — функция, добавляющая расписание в базу данных. Параметр «[WorkingHour](https://github.com/gogganesko/Orho/blob/master/docs/WorkingHour.md "объект класса WorkingHour")> — функция, возвращающая список записей расписания по выбранным параметрам. 
 Параметры: 

@@ -6,7 +6,7 @@
 который необходимо добавить в БД;
 * +Save (KindOfProcedure: [KindOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/KindOfProcedure.md "объект класса KindOfProcedure")): Bool — функция, редактирующая данные о виде процедуры. Параметр «[KindOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/KindOfProcedure.md "объект класса KindOfProcedure")» — 
 тип процедуры, который необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск вида процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [KindOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/KindOfProcedure.md "объект класса KindOfProcedure")  — функция, осуществляющая поиск вида процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID): Bool – функция удаляет вид процедуры.
 * +GetAllKindsOfProceduresOfProcedure(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[KindOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/KindOfProcedure.md "объект класса KindOfProcedure")> — функция, возвращающая список видов процедур. 
 Параметры: 

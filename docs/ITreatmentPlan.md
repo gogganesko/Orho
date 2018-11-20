@@ -6,7 +6,7 @@
 который необходимо добавить в БД;
 * +Save (TreatmentPlan:[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")): Bool — функция, редактирующая данные о плане лечения. Параметр «[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan"))» — 
 план лечения, который необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск плана лечения в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int):[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")  — функция, осуществляющая поиск плана лечения в базе данных по ID и возвращающая найденный, если такой есть. 
 * +AddDiagnosis(DiagnosisID: Int, TreatmentPlanID: Int): Int – функция добавляет плану лечения диагноз в БД. Параметр DiagnosisID и TreatmentPlanID – ID по которому будет осуществлен поиск в базе.
 * +Delete(ID): Bool – функция удаляет план лечения.
 * +GetAllTreatmentPlans(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[TreatmentPlan](https://github.com/gogganesko/Orho/blob/master/docs/TreatmentPlan.md "объект класса TreatmentPlan")> — функция, возвращающая список всех планов лечения. 

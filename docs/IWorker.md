@@ -6,7 +6,7 @@
 которого необходимо добавить в БД;
 * +Save (Worker: [Worker](https://github.com/gogganesko/Orho/blob/master/docs/Worker.md "объект класса Worker")): Bool — функция, редактирующая данные о читателе. Параметр «Worker» — 
 врач, которого необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск врача в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Worker](https://github.com/gogganesko/Orho/blob/master/docs/Worker.md "объект класса Worker")  — функция, осуществляющая поиск врача в базе данных по ID и возвращающая найденный, если такой есть. 
 +AddWorkerProcedure(ProcedureID: Int, WorkerID: Int): Int – функция добавляет врачу процедуру в БД. 
 Параметр WorkerID и ProcedureID – ID по которому будет осуществлен поиск в базе.
 * +AddWorkeVisit(VisitID: Int, WorkerID: Int): Int – функция добавляет врачу приём в БД. Параметр WorkerID и VisitID – ID по которому будет осуществлен поиск в базе.

@@ -6,7 +6,7 @@
 которого необходимо добавить в БД;
 * +Save (Patient: [Patient](https://github.com/gogganesko/Orho/blob/master/docs/Patient.md "объект класса Patient")): Bool — функция, редактирующая данные о читателе. Параметр «[Patient](https://github.com/gogganesko/Orho/blob/master/docs/Patient.md "объект класса Patient")» — 
 пациент, которого необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск пациента в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Patient](https://github.com/gogganesko/Orho/blob/master/docs/Patient.md "объект класса Patient")  — функция, осуществляющая поиск пациента в базе данных по ID и возвращающая найденный, если такой есть. 
 * +AddPatientDiagnosis(DiagnosisID: Int, PatientID: Int): Int – функция добавляет пациенту диагноз в БД. 
 Параметр PatientID и DiagnosisID – ID по которому будет осуществлен поиск в базе.
 * +AddPatientVisit(VisitID: Int, PatientID: Int): Int – функция добавляет пациенту приём в БД. Параметр PatientID и VisitID – ID по которому будет осуществлен поиск в базе.

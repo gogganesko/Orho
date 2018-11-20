@@ -6,7 +6,7 @@
 которую необходимо добавить в БД;
 * +Save (Procedure: [Procedure](https://github.com/gogganesko/Orho/blob/master/docs/Procedure.md "объект класса Procedure")): Bool — функция, редактирующая данные о процедуре. Параметр «[Procedure](https://github.com/gogganesko/Orho/blob/master/docs/Procedure.md "объект класса Procedure")» — 
 процедура, которую необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [Procedure](https://github.com/gogganesko/Orho/blob/master/docs/Procedure.md "объект класса Procedure")  — функция, осуществляющая поиск процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
 * +AddFile(Path : String): Int – функция добавляет файл в процедуру. 
 * +AddProcedureCabinet(CabinetID: Int, ProcedureID: Int): Int – функция добавляет процедуре кабинет в БД. Параметр ProcedureID и CabinetID – ID по которому будет осуществлен поиск в базе.
 * +AddProcedurePay(PayID: Int, ProcedureID: Int): Int – функция добавляет процедуре платёж в БД. Параметр ProcedureID и PayID – ID по которому будет осуществлен поиск в базе.

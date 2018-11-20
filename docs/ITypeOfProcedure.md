@@ -8,7 +8,7 @@
 * +DelWorkingHour(WorkingHourID: Int, TypeOfProcedureID: Int): Int - удаление расписания типа процедуры.
 * +Save (TypeOfProcedure:[TypeOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/TypeOfProcedure.md "объект класса TypeOfProcedure")): Bool — функция, редактирующая данные о типе процедуры. Параметр «[TypeOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/TypeOfProcedure.md "объект класса TypeOfProcedure")» — 
 тип процедуры, который необходимо редактировать в БД;
-* +FindByID(ID: Int): Int  — функция, осуществляющая поиск процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
+* +FindByID(ID: Int): [TypeOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/TypeOfProcedure.md "объект класса TypeOfProcedure")  — функция, осуществляющая поиск процедуры в базе данных по ID и возвращающая найденный, если такой есть. 
 * +Delete(ID): Bool – функция удаляет процедуру.
 * +GetAllTypesOfProcedure(ID: Int, sorting: string, sortingA: string, filtering: Reader, count: Int, page: Int): List <[TypeOfProcedure](https://github.com/gogganesko/Orho/blob/master/docs/TypeOfProcedure.md "объект класса TypeOfProcedure")> — функция, возвращающая список типов процедур. 
 Параметры: 
